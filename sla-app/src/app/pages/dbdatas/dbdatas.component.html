@@ -1,0 +1,12 @@
+<nb-card>
+  <nb-card-body>  
+    <div class="dropdown-container">
+     <p></p>
+      <select [(ngModel)]="selectedId" class="dashboard-dropdown" (ngModelChange)="selectDashboard($event)">
+        <option *ngFor="let type of dbTypes" value={{type.DashboardId}} [selected]="type.DashboardId == selectedId">{{type.DashboardName}}</option>
+       </select>
+      </div>    
+      <ng2-smart-table [settings]="settings" [source]="source">
+     </ng2-smart-table>
+  </nb-card-body> 
+</nb-card>

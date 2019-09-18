@@ -1,0 +1,145 @@
+<form [formGroup]="slaEntryForm" novalidate>
+  <div class="modal-header">
+    <span>{{ modalHeader }}</span>
+    <button class="close" aria-label="Close" (click)="closeModal()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="slainput-container form-group">
+      <div class="input-label"><h5>Dashboard</h5></div>
+      <select formControlName="selectedDashboard" [(ngModel)]="selectedDashboard" class="slainput-dropdown">
+        <option *ngFor="let type of dashboardItems" value={{type.DashboardId}} [selected]="type.DashboardId == selectedDashboard">{{type.DashboardName}}</option>
+      </select>
+      <!--<div *ngIf="slaEntryForm.controls['selectedDashboard'].invalid && (slaEntryForm.controls['selectedDashboard'].dirty || slaEntryForm.controls['selectedDashboard'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['selectedDashboard'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="dashboardRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div class="input-label"><h5>SLA</h5></div>
+      <select formControlName="selectedSLA" [(ngModel)]="selectedSLA" class="slainput-dropdown" (change)="changeSLAItem($event)">
+        <option *ngFor="let type of slaItems" value={{type.SLAId}} [selected]="type.SLAId == selectedSLA">{{type.SLA}}</option>
+      </select>
+      <!--<div *ngIf="slaEntryForm.controls['selectedSLA'].invalid && (slaEntryForm.controls['selectedSLA'].dirty || slaEntryForm.controls['selectedSLA'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['selectedSLA'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="slaRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group" [hidden]="(selectedSLA== 6 || selectedSLA == 7)">
+      <div class="input-label"><h5>TIER</h5></div>
+      <select formControlName="selectedTier" [(ngModel)]="selectedTier" class="slainput-dropdown">
+        <option *ngFor="let type of tierItems" value={{type.SLATierId}} [selected]="type.SLATierId == selectedTier">{{type.SLATier}}</option>
+      </select>
+      <!--<div *ngIf="slaEntryForm.controls['selectedTier'].invalid && (slaEntryForm.controls['selectedTier'].dirty || slaEntryForm.controls['selectedTier'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['selectedTier'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="tierRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div class="input-label"><h5>YEAR</h5></div>
+      <select formControlName="selectedYear" [(ngModel)]="selectedYear" class="slainput-dropdown">
+        <option *ngFor="let type of years" value={{type.Year}} [selected]="type.Year == selectedYear">{{type.YearName}}</option>
+      </select>
+      <!--<div *ngIf="slaEntryForm.controls['selectedYear'].invalid && (slaEntryForm.controls['selectedYear'].dirty || slaEntryForm.controls['selectedYear'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['selectedYear'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="yearRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div class="input-label"><h5>MONTH</h5></div>
+      <select formControlName="selectedMonth" [(ngModel)]="selectedMonth" class="slainput-dropdown">
+        <option *ngFor="let type of months" value={{type.Id}} [selected]="type.Id == selectedMonth">{{type.Name}}</option>
+      </select>
+      <!--<div *ngIf="slaEntryForm.controls['selectedMonth'].invalid && (slaEntryForm.controls['selectedMonth'].dirty || slaEntryForm.controls['selectedMonth'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['selectedMonth'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="monthRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div [ngSwitch]="selectedSLA">
+        <div class="input-label" *ngSwitchCase=1><h5>AVAILABLE HOURS</h5></div>
+        <div class="input-label" *ngSwitchCase=2><h5>MET</h5></div>
+        <div class="input-label" *ngSwitchCase=3><h5>MET</h5></div>
+        <div class="input-label" *ngSwitchCase=4><h5>TOTAL RCAS AGREED FOR DELIVERY</h5></div>
+        <div class="input-label" *ngSwitchCase=5><h5>TOTAL RCAS AGREED FOR IMPLEMENTATION</h5></div>
+        <div class="input-label" *ngSwitchCase=6><h5>TOTAL NUMBER OF RELEASE</h5></div>
+        <div class="input-label" *ngSwitchCase=7><h5>TOTAL NUMBER OF RELEASE</h5></div>
+        <div class="input-label" *ngSwitchDefault><h5>MET</h5></div>
+      </div>
+      <input type="number" class="slainput-textbox" formControlName="met" [(ngModel)]="met" value={{met}}>
+      <!--<div *ngIf="slaEntryForm.controls['met'].invalid && (slaEntryForm.controls['met'].dirty || slaEntryForm.controls['met'].touched)" class="slainput-alert">
+        <div *ngIf="slaEntryForm.controls['met'].errors.required">
+          Required
+        </div>
+      </div>-->
+      <div *ngIf="metRequired" class="slainput-alert">
+        Required
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div [ngSwitch]="selectedSLA">
+        <div class="input-label" *ngSwitchCase=1><h5>ACTUAL HOURS</h5></div>
+        <div class="input-label" *ngSwitchCase=2><h5>NOT MET</h5></div>
+        <div class="input-label" *ngSwitchCase=3><h5>NOT MET</h5></div>
+        <div class="input-label" *ngSwitchCase=4><h5>TOTAL RCAS DELIVERED</h5></div>
+        <div class="input-label" *ngSwitchCase=5><h5>TOTAL RCAS IMPLEMENTED</h5></div>
+        <div class="input-label" *ngSwitchCase=6><h5>TOTAL NUMBER OF RELEASE WITH ACCEPTABLE STANDARDS</h5></div>
+        <div class="input-label" *ngSwitchCase=7><h5>TOTAL NUMBER OF RELEASE WITH ACCEPTABLE STANDARDS</h5></div>
+        <div class="input-label" *ngSwitchDefault><h5>NOT MET</h5></div>
+      </div>
+      <input type="number" class="slainput-textbox" formControlName="notmet" [(ngModel)]="notmet" value={{notmet}}>
+      <!--<div *ngIf="slaEntryForm.controls['notmet'].invalid && (slaEntryForm.controls['notmet'].dirty || slaEntryForm.controls['notmet'].touched)" class="slainput-alert">
+    <div *ngIf="slaEntryForm.controls['notmet'].errors.required">
+      Required
+    </div>
+  </div>-->
+      <div *ngIf="notmetRequired" class="slainput-alert">
+        Required
+      </div>
+      <div *ngIf="metIsNumber" class="slainput-alert">
+        Not a number
+      </div>
+    </div>
+    <div class="slainput-container form-group">
+      <div class="input-label"><h5>COMMENTS</h5></div>
+      <textarea class="slainput-textarea" cols="50" rows="5" formControlName="slaComment" [(ngModel)]="slaComment"></textarea>
+      <!--<div *ngIf="slaEntryForm.controls['slaComment'].invalid && (slaEntryForm.controls['slaComment'].dirty || slaEntryForm.controls['slaComment'].touched)" class="slainput-alert">
+    <div *ngIf="slaEntryForm.controls['slaComment'].errors.maxlength">
+      Max length is 500
+    </div>
+  </div>-->
+      <div *ngIf="commentMaxLength" class="slainput-alert">
+        Max length is 500
+      </div>
+      <div *ngIf="notmetIsNumber" class="slainput-alert">
+        Not a number
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <!--<button class="btn btn-md btn-primary" (click)="submitInput()" [disabled]="this.slaEntryForm.pristine || this.slaEntryForm.invalid">Save changes</button>-->
+    <button class="btn btn-md btn-primary" (click)="submitInput()">Save changes</button>
+    <button class="btn btn-md btn-primary" (click)="closeModal()">Close</button>
+  </div>
+</form>

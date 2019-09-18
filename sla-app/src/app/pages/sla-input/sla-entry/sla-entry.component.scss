@@ -1,0 +1,66 @@
+@import '../../../@theme/styles/themes';
+@import '~bootstrap/scss/mixins/breakpoints';
+@import '~@nebular/theme/styles/global/bootstrap/breakpoints';
+
+@include nb-install-component() {
+  .solar-card nb-card-header {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    ngx-traffic {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down(is) {
+    /deep/ nb-card.large-card {
+      height: nb-theme(card-height-medium);
+    }
+  }
+
+  .input-label {
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  .slainput-container {
+    align-content: flex-end;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0rem 2rem .1rem 1rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+  }
+
+  .slainput-dropdown {
+    font-family: nb-theme(font-main);
+    font-size: 1rem;
+    color: green;
+    height: 30px;
+    width: 350px;
+  }
+
+  .slainput-textbox {
+    font-family: nb-theme(font-main);
+    font-size: 1rem;
+    color: green;
+    height: 30px;
+    width: 200px;
+  }
+
+  .slainput-textarea {
+    font-family: nb-theme(font-main);
+    font-size: 1rem;
+    color: green;
+    width: 450px;
+  }
+
+  .slainput-alert {
+    width: 100px;
+    font-family: nb-theme(font-main);
+    font-size: 1rem;
+    color: red;
+  }
+}

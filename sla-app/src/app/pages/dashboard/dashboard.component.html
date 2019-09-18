@@ -1,0 +1,74 @@
+
+<div class="dropdown-container">
+  <p></p>
+  <select [(ngModel)]="selectedId" class="dashboard-dropdown" (ngModelChange)="selectDashboard($event)">
+    <option *ngFor="let type of dashoardTypes" value={{type.DashboardId}} [selected]="type.DashboardId == selectedId">{{type.DashboardName}}</option>
+  </select>
+</div>
+<div class="row">
+  <div class="col-xxxl-4 col-xxl-4 col-lg-4 col-md-4">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams01.SLAName}} ">
+          <dashboard-tier [dashboardItems]="ams01Items" [dashboardSla]="ams01" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-tier>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+  <div class="col-xxxl-4 col-xxl-4 col-lg-4 col-md-4">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams02.SLAName}} ">
+          <dashboard-tier [dashboardItems]="ams02Items" [dashboardSla]="ams02" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-tier>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+  <div class="col-xxxl-4 col-xxl-4 col-lg-4 col-md-4">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams03.SLAName}} ">
+          <dashboard-tier [dashboardItems]="ams03Items" [dashboardSla]="ams03" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-tier>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xxxl-3 col-xxl-3 col-lg-3 col-md-3">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams04.SLAName}} ">
+          <dashboard-security [dashboardItems]="ams04Items" [dashboardSla]="ams04" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-security>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+  <div class="col-xxxl-3 col-xxl-3 col-lg-3 col-md-3">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams05.SLAName}}">
+          <dashboard-security [dashboardItems]="ams05Items" [dashboardSla]="ams05" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-security>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+  <div class="col-xxxl-3 col-xxl-3 col-lg-3 col-md-3">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams06.SLAName}}">
+          <dashboard-quality [dashboardItems]="ams06Items" [dashboardSla]="ams06" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-quality>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+  <div class="col-xxxl-3 col-xxl-3 col-lg-3 col-md-3">
+    <nb-card size="small" class="card-size">
+      <nb-tabset fullWidth>
+        <nb-tab tabTitle="{{ams07.SLAName}}">
+          <dashboard-quality [dashboardItems]="ams07Items" [dashboardSla]="ams07" [month1]="dashboard.Month1" [month2]="dashboard.Month2" [month3]="dashboard.Month3"></dashboard-quality>
+        </nb-tab>
+      </nb-tabset>
+    </nb-card>
+  </div>
+</div>

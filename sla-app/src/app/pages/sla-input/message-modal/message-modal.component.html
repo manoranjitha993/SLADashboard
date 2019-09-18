@@ -1,0 +1,10 @@
+<div class="message-modal-class">
+  <div class="modal-header message-modal-div">
+    <span>{{ modalMessage }}</span>
+  </div>
+  <div class="modal-footer message-modal-div">
+    <button class="btn btn-md btn-primary" [hidden]="modalType != 'message'" (click)="closeModal()">Ok</button>
+    <button class="btn btn-md btn-primary" [hidden]="modalType != 'confirmDelete'" (click)="deleteSLAData()">Proceed</button>
+    <button class="btn btn-md btn-primary" [hidden]="modalType != 'confirmDelete'" (click)="closeModal()">Cancel</button>
+  </div>
+</div>

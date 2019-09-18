@@ -1,0 +1,116 @@
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\SLADashboard.dll.config
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\SLADashboard.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\SLADashboard.pdb
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csc.exe
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csc.exe.config
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csc.rsp
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csi.exe
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csi.exe.config
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\csi.rsp
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.AppContext.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Collections.Immutable.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Console.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Diagnostics.Process.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.IO.Compression.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.IO.FileSystem.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.IO.Pipes.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.AccessControl.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Claims.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Threading.Thread.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.ValueTuple.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Xml.XPath.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\vbc.exe
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\vbc.exe.config
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\vbc.rsp
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\VBCSCompiler.exe
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\roslyn\VBCSCompiler.exe.config
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\Newtonsoft.Json.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Net.Http.Formatting.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Cors.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.Cors.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.WebHost.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Net.Http.Formatting.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.Cors.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\Newtonsoft.Json.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\System.Web.Http.WebHost.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\obj\Release\SLADashboard.csprojAssemblyReference.cache
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\obj\Release\SLADashboard.csproj.CoreCompileInputs.cache
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\obj\Release\SLADashboard.csproj.CopyComplete
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\obj\Release\SLADashboard.dll
+D:\Sandeep\PG & E\SLA Dashboard\Code\SLADashboard\obj\Release\SLADashboard.pdb
+D:\SLA Dashboard\SLADashboard\bin\SLADashboard.dll.config
+D:\SLA Dashboard\SLADashboard\bin\SLADashboard.dll
+D:\SLA Dashboard\SLADashboard\bin\SLADashboard.pdb
+D:\SLA Dashboard\SLADashboard\bin\roslyn\csc.exe
+D:\SLA Dashboard\SLADashboard\bin\roslyn\csc.exe.config
+D:\SLA Dashboard\SLADashboard\bin\roslyn\csc.rsp
+D:\SLA Dashboard\SLADashboard\bin\roslyn\csi.exe
+D:\SLA Dashboard\SLADashboard\bin\roslyn\csi.rsp
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.AppContext.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.Collections.Immutable.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.IO.FileSystem.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\System.Reflection.Metadata.dll
+D:\SLA Dashboard\SLADashboard\bin\roslyn\vbc.exe
+D:\SLA Dashboard\SLADashboard\bin\roslyn\vbc.exe.config
+D:\SLA Dashboard\SLADashboard\bin\roslyn\vbc.rsp
+D:\SLA Dashboard\SLADashboard\bin\roslyn\VBCSCompiler.exe
+D:\SLA Dashboard\SLADashboard\bin\roslyn\VBCSCompiler.exe.config
+D:\SLA Dashboard\SLADashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SLA Dashboard\SLADashboard\bin\Newtonsoft.Json.dll
+D:\SLA Dashboard\SLADashboard\bin\System.Net.Http.Formatting.dll
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Cors.dll
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.Cors.dll
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.dll
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.WebHost.dll
+D:\SLA Dashboard\SLADashboard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SLA Dashboard\SLADashboard\bin\Newtonsoft.Json.xml
+D:\SLA Dashboard\SLADashboard\bin\System.Net.Http.Formatting.xml
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.xml
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.Cors.xml
+D:\SLA Dashboard\SLADashboard\bin\System.Web.Http.WebHost.xml
+D:\SLA Dashboard\SLADashboard\obj\Release\SLADashboard.csprojAssemblyReference.cache
+D:\SLA Dashboard\SLADashboard\obj\Release\SLADashboard.csproj.CoreCompileInputs.cache
+D:\SLA Dashboard\SLADashboard\obj\Release\SLADashboard.csproj.CopyComplete
+D:\SLA Dashboard\SLADashboard\obj\Release\SLADashboard.dll
+D:\SLA Dashboard\SLADashboard\obj\Release\SLADashboard.pdb

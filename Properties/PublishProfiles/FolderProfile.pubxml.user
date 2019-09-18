@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Sandeep\PG &amp; E\SLA Dashboard\Code\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/16/2017 14:14:32</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/SLADashboard.dll">
+      <publishTime>07/13/2018 16:06:19</publishTime>
+    </File>
+    <File Include="bin/SLADashboard.pdb">
+      <publishTime>07/13/2018 16:06:19</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>05/10/2018 22:37:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>05/10/2018 22:39:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/10/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>02/01/2018 12:19:26</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/30/2018 14:30:30</publishTime>
+    </File>
+    <File Include="sla-app/.editorconfig">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/.gitignore">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/.stylelintrc.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/.travis.yml">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/angular.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/debug.log">
+      <publishTime>07/13/2018 10:10:04</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/core.module.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/core.module.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/data.module.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/data.module.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/electricity.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/electricity.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/player.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/player.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/smart-table.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/smart-table.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/state.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/state.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/users.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/data/users.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/module-import-guard.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/module-import-guard.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/utils/analytics.service.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40core/utils/analytics.service.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/footer/footer.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/footer/footer.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/header/header.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/header/header.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/index.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/components/index.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/layouts/index.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/layouts/index.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/layouts/layout/layout.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/layouts/layout/layout.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/capitalize.pipe.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/capitalize.pipe.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/index.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/index.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/plural.pipe.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/plural.pipe.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/round.pipe.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/round.pipe.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/timing.pipe.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/pipes/timing.pipe.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/styles/theme.cosmic.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/styles/theme.cosmic.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/styles/theme.default.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/styles/theme.default.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/theme.module.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/%40theme/theme.module.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app-routing.module.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app-routing.module.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app.component.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app.component.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app.module.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/app.module.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-data.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-data.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-definition.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-definition.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-dropdown-item.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-dropdown-item.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-item-monthwise.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-item-monthwise.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-item.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-item.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-month.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-month.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-sla.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-sla.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-tier.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-tier.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-type.model.js">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-type.model.js.map">
+      <publishTime>07/13/2018 16:06:06</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-year.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard-year.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/dashboard.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-data.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-data.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-dropdown-item.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-dropdown-item.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-dropdown.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/sla-dropdown.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/tier-dropdown-item.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/tier-dropdown-item.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/user.model.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/models/user.model.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-quality/dashboard-quality.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-quality/dashboard-quality.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-quality/dashboard-quality.component.spec.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-quality/dashboard-quality.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-security/dashboard-security.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-security/dashboard-security.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-security/dashboard-security.component.spec.js">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-security/dashboard-security.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-tier/dashboard-tier.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-tier/dashboard-tier.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-tier/dashboard-tier.component.spec.js">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard-tier/dashboard-tier.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard.module.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/dashboard/dashboard.module.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages-routing.module.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages-routing.module.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages.module.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/pages.module.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/message-modal/message-modal.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/message-modal/message-modal.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/message-modal/message-modal.component.spec.js">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/message-modal/message-modal.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-button/sla-button.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-button/sla-button.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-button/sla-button.component.spec.js">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-button/sla-button.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-entry/sla-entry.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-entry/sla-entry.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-entry/sla-entry.component.spec.js">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-entry/sla-entry.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:08</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-input.component.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-input.component.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-input.component.spec.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/pages/sla-input/sla-input.component.spec.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/dashboard.service.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/dashboard.service.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/dashboard.service.spec.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/dashboard.service.spec.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/sla-input.service.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/sla-input.service.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/sla-input.service.spec.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/sla-input.service.spec.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/user.service.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/user.service.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/user.service.spec.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/app/services/user.service.spec.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/environments/environment.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/environments/environment.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/environments/environment.prod.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/environments/environment.prod.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/main.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/main.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/polyfills.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/polyfills.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/test.js">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/dist/out-tsc/test.js.map">
+      <publishTime>07/13/2018 16:06:07</publishTime>
+    </File>
+    <File Include="sla-app/e2e/tsconfig.e2e.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/karma.conf.js">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/npm-debug.log">
+      <publishTime>07/03/2018 15:50:35</publishTime>
+    </File>
+    <File Include="sla-app/package-lock.json">
+      <publishTime>05/29/2018 12:17:59</publishTime>
+    </File>
+    <File Include="sla-app/package.json">
+      <publishTime>07/03/2018 15:43:53</publishTime>
+    </File>
+    <File Include="sla-app/protractor.conf.js">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/README.md">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40core/data/.gitkeep">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40core/data/README.md">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40core/utils/.gitkeep">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/components/footer/footer.component.scss">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/components/header/header.component.html">
+      <publishTime>06/29/2018 15:32:13</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/components/header/header.component.scss">
+      <publishTime>06/13/2018 10:34:15</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/components/index.js">
+      <publishTime>05/28/2018 18:32:21</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/components/index.js.map">
+      <publishTime>05/28/2018 18:32:21</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/layouts/index.js">
+      <publishTime>05/29/2018 16:20:31</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/layouts/index.js.map">
+      <publishTime>05/29/2018 16:20:31</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/layouts/layout/layout.scss">
+      <publishTime>06/05/2018 14:33:47</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/pipes/.gitkeep">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/bootstrap-rtl.scss">
+      <publishTime>05/28/2018 18:35:39</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/pace.theme.scss">
+      <publishTime>05/28/2018 18:36:50</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/styles.scss">
+      <publishTime>05/28/2018 18:38:54</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/theme.cosmic.js">
+      <publishTime>05/28/2018 18:36:50</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/theme.cosmic.js.map">
+      <publishTime>05/28/2018 18:36:50</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/theme.default.js">
+      <publishTime>05/28/2018 18:37:35</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/theme.default.js.map">
+      <publishTime>05/28/2018 18:37:35</publishTime>
+    </File>
+    <File Include="sla-app/src/app/%40theme/styles/themes.scss">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-quality/dashboard-quality.component.html">
+      <publishTime>07/13/2018 12:36:24</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-quality/dashboard-quality.component.scss">
+      <publishTime>05/29/2018 17:07:14</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-security/dashboard-security.component.html">
+      <publishTime>07/13/2018 12:36:27</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-security/dashboard-security.component.scss">
+      <publishTime>05/29/2018 17:06:48</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-template.component.scss">
+      <publishTime>07/03/2018 12:36:52</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-tier/dashboard-tier.component.html">
+      <publishTime>07/13/2018 12:36:28</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-tier/dashboard-tier.component.scss">
+      <publishTime>05/29/2018 17:09:09</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-tier/dashboard-tier.component.spec.js">
+      <publishTime>05/29/2018 17:10:21</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard-tier/dashboard-tier.component.spec.js.map">
+      <publishTime>05/29/2018 17:10:21</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard.component.html">
+      <publishTime>07/13/2018 10:18:04</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/dashboard/dashboard.component.scss">
+      <publishTime>07/12/2018 14:24:01</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/message-modal/message-modal.component.html">
+      <publishTime>06/28/2018 12:26:59</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/message-modal/message-modal.component.scss">
+      <publishTime>06/28/2018 15:44:03</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-button/sla-button.component.html">
+      <publishTime>06/28/2018 12:18:06</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-button/sla-button.component.scss">
+      <publishTime>06/28/2018 12:14:06</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-entry/sla-entry.component.html">
+      <publishTime>07/12/2018 14:49:13</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-entry/sla-entry.component.scss">
+      <publishTime>07/12/2018 14:17:33</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-input.component.html">
+      <publishTime>07/06/2018 17:37:17</publishTime>
+    </File>
+    <File Include="sla-app/src/app/pages/sla-input/sla-input.component.scss">
+      <publishTime>06/29/2018 12:03:44</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/met-negative.png">
+      <publishTime>06/05/2018 16:14:40</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/met-nochange.png">
+      <publishTime>06/05/2018 16:10:05</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/met-positive.png">
+      <publishTime>06/05/2018 16:40:09</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/notmet-negative.png">
+      <publishTime>06/05/2018 16:14:18</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/notmet-nochange.png">
+      <publishTime>06/05/2018 16:13:43</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/notmet-positive.png">
+      <publishTime>06/05/2018 16:12:04</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/square_pattern.svg">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/images/square_pattern_cosmic.svg">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/content.inline.min.css">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/content.min.css">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce-small.eot">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce-small.svg">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce-small.ttf">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce-small.woff">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce.eot">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce.svg">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce.ttf">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/fonts/tinymce.woff">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/img/anchor.gif">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/img/loader.gif">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/img/object.gif">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/img/trans.gif">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/skin.ie7.min.css">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/assets/skins/lightgray/skin.min.css">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/favicon.ico">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/favicon.png">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/index.html">
+      <publishTime>05/28/2018 18:04:18</publishTime>
+    </File>
+    <File Include="sla-app/src/main.js">
+      <publishTime>07/03/2018 15:14:40</publishTime>
+    </File>
+    <File Include="sla-app/src/main.js.map">
+      <publishTime>05/29/2018 16:20:31</publishTime>
+    </File>
+    <File Include="sla-app/src/tsconfig.app.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/src/tsconfig.spec.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/tsconfig.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="sla-app/tslint.json">
+      <publishTime>05/14/2018 03:58:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/13/2018 16:09:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

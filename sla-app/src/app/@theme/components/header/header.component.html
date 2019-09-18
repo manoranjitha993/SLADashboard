@@ -1,0 +1,35 @@
+
+<div class="header-container"
+     [class.left]="position === 'normal'"
+     [class.right]="position === 'inverse'">
+
+<div class="logo-containter">
+  <div class="logo">
+   <img src="assets/images/PGE-Logo-jpg.jpg" height="70" width="90">
+  </div> 
+</div>
+
+  <div class="logo-containter">
+    <div class="logo">SLA Dashboard</div>
+  </div>
+</div>
+
+<nb-actions size="medium"
+            class="header-container"
+            [class.right]="position === 'normal'"
+            [class.left]="position === 'inverse'">
+  <nb-action *nbIsGranted="['view', 'user']">
+    <!--<div class="dropdown-container">
+      <select [(ngModel)]="selectedType" id="dashoardType" class="dashboard-dropdown" (change)="selectDashboard($event.target.value)">
+        <option *ngFor="let type of dashoardTypes" [value]="type.DashboardId" [selected]="type == selectedType">{{type.DashboardName}}</option>
+      </select>
+    </div>-->
+    <div class="dropdown-container" [hidden]="user?.IsAdminUser==false">
+      <a href="#/pages/dashboard" (click)="menuClick('dashboard')" [hidden]="page=='dashboard'">SLA Dashboard</a>
+      <a href="#/pages/sla-input" (click)="menuClick('sladata')" [hidden]="page=='sladata'">SLA Data Entry</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="#/pages/dbdatas" (click)="menuClick('sladata')" [hidden]="page=='sladata'">Full View</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+    </div>
+    <nb-user [name]="user?.UserName"></nb-user>
+  </nb-action>
+</nb-actions>

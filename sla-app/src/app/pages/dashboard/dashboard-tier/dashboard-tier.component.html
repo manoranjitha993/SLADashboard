@@ -1,0 +1,48 @@
+<div class="chart-container">
+  <div class="chart-header">
+    <div class="header-stats">
+      <div class="stats-block">
+        <div class="tier-header">&nbsp;</div>
+      </div>
+    </div>
+    <div class="stats-block">
+      <div class="tier-header">{{month1}}</div>
+    </div>
+    <div class="stats-block">
+      <div class="tier-header">{{month2}}</div>
+    </div>
+    <div class="stats-block">
+      <div class="tier-header">{{month3}}</div>
+    </div>
+  </div>
+  <div class="chart-items" *ngFor="let item of dashboardItems">
+    <div class="header-stats">
+      <div class="stats-block">
+        <div class="value-tier">{{item.SLATier}}</div>
+      </div>
+    </div>
+    <div class="stats-block">
+      <div title = {{item.M1Comment}} [ngClass]="{'value': item.M1SLAStatus == 'G', 'value-low': item.M1SLAStatus == 'L','value-red': item.M1SLAStatus == 'R'}">
+        {{(month1 == '-') ? '' : item.M1SLAPercent}}
+      </div>
+    </div>
+    <div class="stats-block">
+      <div title = {{item.M2Comment}} [ngClass]="{'value': item.M2SLAStatus == 'G', 'value-low': item.M2SLAStatus == 'L','value-red': item.M2SLAStatus == 'R'}">
+        {{(month2 == '-') ? '' : item.M2SLAPercent}}
+      </div>
+    </div>
+    <div class="stats-block">
+      <div title = {{item.M3Comment}} [ngClass]="{'value': item.M3SLAStatus == 'G','value-low': item.M3SLAStatus == 'L', 'value-red': item.M3SLAStatus == 'R'}">
+        {{(month3 == '-') ? '' : item.M3SLAPercent}}
+      </div>
+    </div>
+  </div>
+  <div class="chart-items">
+    
+    <div class="chart-comments" title="{{dashboardSla.SLAComment}}">{{dashboardSla.SLAComment.substring(0, 150) + ((dashboardSla.SLAComment.length > 150) ? '...' : '')}}</div>
+  
+    <div class="chart-image"><img src="{{dashboardSla.SLATrendImage}}" title="{{dashboardSla.SLATrendTitle}}" /></div>
+  
+  </div>
+</div>
+
